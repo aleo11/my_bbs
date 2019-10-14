@@ -1,0 +1,116 @@
+.article-detail-wrap{
+    width: -webkit-fill-available;
+    .middle{
+        height: calc(100vh - 95px);
+        position: relative;
+        top:45px;
+        padding: 5px;
+        overflow: auto;
+        .title-wrap{
+            font-weight: 700;
+            font-size: large;
+            padding: 10px;
+        }
+        .author-wrap{
+            height: 50px;
+            line-height: 50px;
+            font-size: 12px;
+            background: #ececec;
+            .head-image{
+                display: inline-block;
+                vertical-align: middle;
+                height:20px;
+                width:20px;
+                background-size: contain;
+                margin: 0 5px;
+            }
+            .time{
+                float:right;
+                margin-right:5px;
+            }
+        }
+        .content-wrap{
+            margin-top:10px;
+            img{
+                width: 100%;
+            }
+        }
+        .praise{
+            text-align: center;
+            margin: 30px;
+            .icon{
+                width: 2.5em;
+                height: 2.5em;
+            }
+        }
+        .comment-wrap{
+            border-top: 2px solid #883e3e;
+            .title{
+                color: #635c5c;
+                font-size: 1.4rem;
+                margin: 10px;
+            }
+            .comment{
+                margin-bottom:20px;
+                .from-message{
+                    display: flex;
+                    .headimg{
+                        width: 40px;
+                        height: 40px;
+                        background-size: contain;
+                    }
+                    .message-middle{
+                        margin-left:10px;
+                        .from-nickname{
+                            font-weight: 600
+                        }
+                        .edit-time{
+                            color: grey
+                        }
+                    }
+                }
+                .content{
+                    margin-left:50px;
+                    font-size: 1.5rem;
+                }
+                .content-child{
+                    .headimg{
+                        width:25px;
+                        height: 25px;
+                        background-size: contain;
+                    }
+                }
+            }
+        }
+    }
+    .bottom{
+        position: fixed;
+        background: white;
+        bottom: 0;
+        width: -webkit-fill-available;
+        padding: 0 5px;
+        font-size: 12px;
+        border-radius: 10px;
+        display: inline-block;
+        .input-comment{
+            display: inline-block;
+            width: 80%;
+            .am-textarea-label{
+                width: 65px;
+                font-size: 1.5rem;
+            }
+            .am-textarea-control textarea{
+                font-size: 1.5rem;
+            }
+        }
+        .zan{
+            font-weight: 600;
+            float: right;
+            margin-top: 5px;
+            color: white;
+            padding: 8px;
+            background: cornflowerblue;
+            border-radius: 50%;
+        }
+    }
+}

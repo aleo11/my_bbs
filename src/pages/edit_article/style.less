@@ -1,0 +1,137 @@
+.edit-wrap{
+    position: relative;
+        .top{
+            height: 45px;
+            line-height: 45px;
+            border-bottom: .3px solid rgb(194, 193, 193);
+            position:fixed;
+            width: 100vw;
+            background: white;
+            z-index: 1;
+           .back{
+            width: 60px;
+            text-align: center;
+            float:left
+        }
+            .release{
+                color: #12c78a;
+                width: 60px;
+                text-align: center;
+                float:right
+            }
+        }
+    .article-body-wrap{
+        position: relative;
+        top: 45px;
+        margin-bottom:40px;
+    }
+    .bottom{
+        height: 40px;
+        width: 100vw;
+        line-height: 30px;
+        padding: 5px 5px 5px 5px;
+        color: #565656;
+        position: fixed;
+        bottom: 0;
+        background: white;
+        .choose{
+            float:left;
+            width: 80px;
+            font-size:15px;
+            text-align: center;
+            background: #12c78a;
+            border-radius: 50px;
+        }
+        .right-icon{
+            float: right;
+            display: inline-grid;
+            height: 30px;
+            line-height: 30px;
+            .icon{
+                width: 30px;
+                height: 30px;
+                vertical-align: middle;
+            }
+        }
+    }
+
+    #article-body{
+        img{
+            width:100%;
+        }
+    }
+
+    #my-domain{
+        position: fixed;
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+        top: 100vh;
+        transition:top 1s;
+        background: rgb(235, 234, 234);
+        transition-timing-function:ease-in;
+	    -webkit-transition:top .5s; /* Safari */
+        &.display{
+            top:0
+        }
+        .my-domain-top{
+            height: 45px;
+            line-height: 45px;
+            border-bottom: .3px solid rgb(194, 193, 193);
+            width: 100vw;
+            background: white;
+           .back{
+            width: 60px;
+            text-align: center;
+            float:left
+           }
+           .compelete{
+            width: 60px;
+            color: #12c78a;
+            text-align: center;
+            float:right
+           }
+            .icon{
+                vertical-align: middle
+            }
+
+        }
+
+        .my-domain-middle{
+            .title{
+                font-size:15px;
+                color: rgb(147, 148, 149);
+                margin: 8px;
+            }
+            .content{
+                background: white;
+                height: 50px;
+                line-height: 50px;
+                .domain-area-wrap{
+                    background: #dad9d9;
+                    display: inline;
+                    padding: 8px;
+                    border-radius: 10px;
+                    margin: 0 10px;
+                    color:black;
+                }   
+                .domain-area-clicked{
+                    background: #12c78a;
+                    display: inline;
+                    padding: 8px;
+                    border-radius: 10px;
+                    margin: 0 10px;
+                    color:white;
+                }
+                .quan-area-clicked{
+                    background: #19a3e2;
+                    display: inline;
+                    padding: 8px;
+                    border-radius: 10px;
+                    margin: 0 10px;
+                    color:white;
+                } 
+            }
+        }
+    }
+}

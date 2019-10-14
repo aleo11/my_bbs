@@ -1,0 +1,32 @@
+.my-body{
+    width:100vw;
+    img{
+        width:100%;
+    }
+    .article-title-wrap{
+        line-height: 40px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .article-content-wrap{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        font-size: 13px;
+        color: #444444;
+        overflow: hidden;
+        margin-bottom: 8px;
+        border-bottom: 1px solid rgb(246, 246, 246);
+        img{
+            max-height: 400px;
+        }
+        img:nth-child(n+2){
+            display: none;
+        }
+
+        p{
+            background-color: unset!important;
+        }
+    }
+    
+}

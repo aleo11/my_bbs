@@ -1,0 +1,70 @@
+.login-register-wrap{
+    color: white;
+    background-image: url('../../statics/images/bg.jpeg');
+    width: 100vw;
+    height: 100vh;
+    background-repeat: round;
+    background-attachment: fixed;
+    .title{
+            position: absolute;
+            top: 18vh;
+            font-size: 22px;
+            margin: auto;
+            letter-spacing: 8px;
+            width: -webkit-fill-available;
+            text-align: center;
+            height: fit-content;
+    }
+    .input-wrap{
+        position: absolute;
+        top: 28vh;
+        width: -webkit-fill-available;
+        height: fit-content;
+        div{
+            animation: loginWrap 1.5s ease;
+            opacity: 1;
+            text-align: center;
+            width: 80vw;
+            height: fit-content;
+            margin: 10px auto;
+        }
+        #submit-login{
+            position: absolute;
+            top: 25vh;
+            width: 80vw;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            background: #35c58acf;
+            text-align: center;
+            letter-spacing: 5px;
+            border: none;
+            font-size: x-large;
+            color: #fdfdfd;
+            border-radius: 20px;
+        }
+        .am-list-item.am-list-item-middle .am-list-line{
+            height: 32px;
+        }
+        .am-list-item .am-input-control input{
+            color:#fff
+        }
+    }
+    .am-list-item.am-input-item{
+        background: none;
+        .am-input-label{
+            color:white;
+            width:40px;
+        }
+    }
+}
+
+
+@keyframes loginWrap{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
